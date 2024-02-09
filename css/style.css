@@ -1,0 +1,56 @@
+html {
+    box-sizing: border-box;
+    margin: 0;
+  }
+  
+  *, ::after, ::before {
+    box-sizing: inherit;
+  }
+
+.naglowek {
+    color: rgb(57, 107, 55)
+}
+
+.header {
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 20px 2%;
+    background-color: rgb(111, 171, 109);
+}
+.nav__link{
+    text-decoration: none;
+    color:blanchedalmond;
+}
+
+.nav__items{
+    list-style: none;
+}
+
+.nav__items li{
+    display: inline-block;
+    padding: 0 10px;
+    
+}
+
+.nav__items a:hover{
+   color:rgb(245, 246, 239);
+}
+.logo{
+    display: block;
+    width: 85px;
+    height: 55px;
+    margin-right: auto;
+}
+.contactButton{
+    margin-left: 10px;
+    padding:9px 25px;
+    border-radius: 20px;
+}
+
+.contactButton:hover{
+ background-color: rgb(112, 140, 104);
+}
+
+
+
